@@ -17,7 +17,7 @@ function populateTracksTable(tracks) {
     row.appendChild(trackName)
 
     const albumId = document.createElement('td')
-    albumId.textContent = track.album_id
+    albumId.textContent = track.album
     row.appendChild(albumId)
 
     const explicit = document.createElement('td')

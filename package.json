@@ -1,0 +1,17 @@
+{
+  "name": "topsify-charlottemothersole",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img width=\"200px\" src=\"./web/img/logo.png\" alt=\"Topsify logo\"/> </p>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./cli/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
