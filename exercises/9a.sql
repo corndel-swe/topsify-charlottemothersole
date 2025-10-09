@@ -5,3 +5,8 @@
   -- "name" is a unique string
 
 -- Could you write the SQL to create the table?
+DROP TABLE IF EXISTS genres;
+create table genres (
+  id integer primary key AUTOINCREMENT,
+  name text unique
+);
